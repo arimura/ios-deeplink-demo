@@ -9,11 +9,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var urlSchemeButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
     }
-
-
+    
+    @IBAction func tapUrlScheme(_ sender: Any) {
+        print("hoge")
+    }
 }
+
 
