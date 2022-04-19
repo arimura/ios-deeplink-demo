@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func tapUrlScheme(_ sender: Any) {
-        print("hoge")
+        UIApplication.shared.open(URL(string: "deeplink-demo://hoge")!)
     }
 }
 
